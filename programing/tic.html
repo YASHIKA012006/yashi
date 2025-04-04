@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.container{
+    display:flex;
+    gap: 60px;
+}
+
+.grid {
+  display: grid;
+  gap: 5px; 
+  margin: 90px;
+  padding: 90px;
+}
+
+/* Specific styling for 3x3 grid */
+.grid-3x3 {
+  grid-template-columns: repeat(3, 50px); /* 3 columns with 50px width each */
+  grid-template-rows: repeat(3, 50px);   /* 3 rows with 50px height each */
+}
+
+/* Specific styling for 5x5 grid */
+.grid-5x5 {
+  grid-template-columns: repeat(5, 50px); /* 5 columns with 50px width each */
+  grid-template-rows: repeat(5, 50px);   /* 5 rows with 50px height each */
+}
+
+/* Cell styling */
+.cell {
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border: 1px solid #000; /* Black border for each cell */
+}
+
+
+
+
+    </style>
+</head>
+<body style="background-color: rgb(164, 96, 8);">
+    <center><h1 style="font-size: 40px;font-family: 'Times New Roman', Times, serif;text-decoration: underline;text-transform: uppercase;"> choose a grid 
+    </h1></center>
+    <center>
+    <div class="container">
+        <a href="play.html">
+    <div class="grid grid-3x3">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    </a>
+    <a href="played.html">
+<div class="grid grid-5x5">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+</div>
+</a>
+</div>
+</center>
+</body>
+</html>

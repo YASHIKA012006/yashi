@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.grid {
+  display: grid;
+  gap: 5px; 
+  width:30%;
+  height: 50px;
+  margin-top: 150px;
+  border-radius: 5%;
+}
+
+/* Specific styling for 3x3 grid */
+.grid-3x3 {
+  grid-template-columns: repeat(3, 90px); /* 3 columns with 50px width each */
+  grid-template-rows: repeat(3, 90px);   /* 3 rows with 50px height each */
+}
+.played{
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  border: 2px solid #000; /* Black border for each cell */
+  border-radius: 5%;
+}
+.winner{
+margin-top:50px ;
+font-size:50px ;
+font-weight: bolder;
+
+
+
+}
+    </style>
+</head>
+<body style="background-image:url(my.jpg);">
+<center>
+  <h1 style="text-transform: capitalize;color: blueviolet;font-size:xx-large;"> tic tac toe</h1>
+  </center>
+  <center>
+<center>
+    <div class="grid grid-3x3">
+      <div class="played"></div>
+      <div class="played"></div>
+      <div class="played"></div>
+      <div class="played"></div>
+      <div class="played"></div>
+      <div class="played"></div>
+      <div class="played"></div>
+      <div class="played"></div>
+      <div class="played"></div>
+    </div>
+</center>
+    </center>
+    <div class="winner"></div>
+    <script src="tic.js"></script>
+</body>
+
+</html>
